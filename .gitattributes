@@ -1,0 +1,5 @@
+bin/ filter=lfs diff=lfs merge=lfs -text
+bin/curve-fuse filter=lfs diff=lfs merge=lfs -text
+bin/curvefs-mds filter=lfs diff=lfs merge=lfs -text
+bin/curvefs-metaserver filter=lfs diff=lfs merge=lfs -text
+bin/curvefs_tool filter=lfs diff=lfs merge=lfs -text

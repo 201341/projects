@@ -1,0 +1,1 @@
+../tools/sbin/curvefs_tool --confPath=../tools/conf/tools.conf create-topology --logtostderr=1

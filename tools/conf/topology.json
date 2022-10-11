@@ -1,0 +1,39 @@
+{
+    "servers": [
+        {
+            "name": "server1",
+            "internalip": "127.0.0.1",
+            "internalport": 6800,
+            "externalip": "127.0.0.1",
+            "externalport": 6800,
+            "zone": "zone1",
+            "pool": "pool1"
+        },
+        {
+            "name": "server2",
+            "internalip": "127.0.0.1",
+            "internalport": 6801,
+            "externalip": "127.0.0.1",
+            "externalport": 6801,
+            "zone": "zone2",
+            "pool": "pool1"
+        },
+        {
+            "name": "server3",
+            "internalip": "127.0.0.1",
+            "internalport": 6802,
+            "externalip": "127.0.0.1",
+            "externalport": 6802,
+            "zone": "zone3",
+            "pool": "pool1"
+        }
+    ],
+    "pools": [
+        {
+            "name": "pool1",
+            "replicasnum": 3,
+            "zonenum": 3,
+            "copysetnum": 60
+        }
+    ]
+}
